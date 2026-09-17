@@ -90,6 +90,10 @@ Each data structure provides methods for its core operations and includes tests 
 ```text
 dsa-toolkit/
 │
+├──benchmarks/
+│   ├── sorting_benchmark.py
+│   └── sorting_performance.png
+│
 ├── dsa/
 │   ├── sorts/
 │   │   ├── bubble.py
@@ -229,13 +233,24 @@ Run the complete test suite from the project root:
 
 ```bash
 pytest
+```
+## Performance
 
+The sorting algorithms were benchmarked using randomly generated
+integer arrays of increasing sizes. Each algorithm was tested using
+the same input data for each input size.
+
+![Sorting Algorithm Performance](benchmarks/sorting_performance.png)
+
+The benchmark demonstrates the practical performance differences
+between the algorithms. Bubble Sort and Insertion Sort show
+substantially higher runtimes as the input size increases, while
+Merge Sort and Quick Sort scale more efficiently for these inputs.
 
 ## Future Improvements
 
 Planned improvements include:
 
-* Add performance benchmarks for sorting algorithms
 * Compare theoretical and observed algorithmic performance
 * Expand the collection of data structures and algorithms
 * Improve package documentation and examples
