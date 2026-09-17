@@ -126,7 +126,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/tanvi366/data_structures_project.git
-cd dsa-toolkit
+cd data_structures_project
 ```
 
 Create and activate a virtual environment:
@@ -219,7 +219,7 @@ linked_list = LinkedList()
 linked_list.add(10)
 linked_list.add(20)
 linked_list.add(30)
-
+```
 
 ## Running Tests
 
@@ -235,7 +235,6 @@ pytest
 
 Planned improvements include:
 
-* Add automated CI testing with GitHub Actions
 * Add performance benchmarks for sorting algorithms
 * Compare theoretical and observed algorithmic performance
 * Expand the collection of data structures and algorithms
