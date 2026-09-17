@@ -216,14 +216,10 @@ from dsa.data_structures.linked_list import LinkedList
 
 linked_list = LinkedList()
 
-linked_list.append(10)
-linked_list.append(20)
-linked_list.append(30)
-```
+linked_list.add(10)
+linked_list.add(20)
+linked_list.add(30)
 
-> The exact method names in these examples should match the methods implemented in the project.
-
----
 
 ## Running Tests
 
@@ -233,11 +229,7 @@ Run the complete test suite from the project root:
 
 ```bash
 pytest
-```
 
-Tests cover the implemented algorithms and data structures, including normal functionality and relevant edge cases.
-
----
 
 ## Future Improvements
 
